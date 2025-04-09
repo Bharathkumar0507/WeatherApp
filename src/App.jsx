@@ -157,10 +157,10 @@ return(
           className='cityINput'
           placeholder='Search City' 
           onChange={handleCity}
-          value={text}/>
-          <div className='Search-icon'
-          onClick={()=>search()}>
-            <button className='SearchButton' onKeyDown={handleKeyDown}>Serach</button>
+          value={text}
+          onKeyDown={handleKeyDown}/>
+          <div className='Search-icon'>
+            <button className='SearchButton' onClick={()=>search()} >Serach</button>
           </div>
         </div>
         
