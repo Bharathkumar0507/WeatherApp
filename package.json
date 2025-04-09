@@ -1,13 +1,13 @@
 {
   "name": "weather",
-  "homepage": "https://Bharathkumar0507.github.io/WeatherApp/",
+  "homepage": "https://Bharathkumar0507.github.io/Weatherapp/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src --exit js.jsx --report-unused-disable-directives --max-warining 0",
+    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
